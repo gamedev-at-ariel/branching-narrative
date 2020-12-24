@@ -1,0 +1,1912 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "Ask for help",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Officer officer please help!!!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Calm down, what happened?\",\"Tell what happened\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Calm down, what happened?\",\"Tell what happened\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Calm down, what happened?",
+                                "text": "\"Calm down, what happened?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Tell what happened",
+                                "text": "\"Tell what happened\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"I can't help I'm busy \",\"Leave the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"I can't help I'm busy \",\"Leave the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "I can't help I'm busy ",
+                                "text": "\"I can't help I'm busy \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leave the farmer",
+                                "text": "\"Leave the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $playersMissionIsComplete to false",
+                        "name": "set",
+                        "text": "(set: $playersMissionIsComplete to false)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "playersMissionIsComplete",
+                                "text": "$playersMissionIsComplete",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "false",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $Score to 0",
+                        "name": "set",
+                        "text": "(set: $Score to 0)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Tell what happened",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He came in the middle of the night, a robber, he stole all my money and no penny left, can you help me?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me all the details\",\"Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me all the details\",\"Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me all the details",
+                                "text": "\"Give me all the details\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Details",
+                                "text": "\"Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok I will help you\",\"Help the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok I will help you\",\"Help the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok I will help you",
+                                "text": "\"Ok I will help you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Help the farmer",
+                                "text": "\"Help the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"I don't want to help you, bye\",\"Beg the officer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"I don't want to help you, bye\",\"Beg the officer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "I don't want to help you, bye",
+                                "text": "\"I don't want to help you, bye\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Beg the officer",
+                                "text": "\"Beg the officer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "Beg the officer",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Please he stole everything! I was left with nothing and I'm going to die.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me all the details\",\"Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me all the details\",\"Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me all the details",
+                                "text": "\"Give me all the details\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Details",
+                                "text": "\"Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok I will help you\",\"Help the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok I will help you\",\"Help the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok I will help you",
+                                "text": "\"Ok I will help you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Help the farmer",
+                                "text": "\"Help the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"I can't help you sorry, bye\",\"Leave the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"I can't help you sorry, bye\",\"Leave the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "I can't help you sorry, bye",
+                                "text": "\"I can't help you sorry, bye\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leave the farmer",
+                                "text": "\"Leave the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Leave the farmer",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You're a terrible person.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Help the farmer",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Oh thank you! Bless you",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $playersMissionIsComplete is false",
+                        "name": "if",
+                        "text": "(if: $playersMissionIsComplete is false)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "playersMissionIsComplete",
+                                "text": "$playersMissionIsComplete",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "is",
+                                "type": "is"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "false",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\t[[Talk to farmer]]\n",
+                        "text": "[\n\t[[Talk to farmer]]\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\t",
+                                "type": "text"
+                            },
+                            {
+                                "innerText": "link-goto:\"Talk to farmer\",\"Talk to farmer\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Talk to farmer\",\"Talk to farmer\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Talk to farmer",
+                                        "text": "\"Talk to farmer\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Talk to farmer",
+                                        "text": "\"Talk to farmer\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\t[[Mission Completed]] \n",
+                        "text": "[\n\t[[Mission Completed]] \n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\t",
+                                "type": "text"
+                            },
+                            {
+                                "innerText": "link-goto:\"Mission Completed\",\"Mission Completed\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Mission Completed\",\"Mission Completed\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Mission Completed",
+                                        "text": "\"Mission Completed\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Mission Completed",
+                                        "text": "\"Mission Completed\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": " ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    }
+                ]
+            },
+            {
+                "Name": "Talk to farmer",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Hello, did you find the robber?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $playersMissionIsComplete is false",
+                        "name": "if",
+                        "text": "(if: $playersMissionIsComplete is false)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "playersMissionIsComplete",
+                                "text": "$playersMissionIsComplete",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "is",
+                                "type": "is"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "false",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\t[[Not yet->Talk to farmer]]\n",
+                        "text": "[\n\t[[Not yet->Talk to farmer]]\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\t",
+                                "type": "text"
+                            },
+                            {
+                                "innerText": "link-goto:\"Not yet\",\"Talk to farmer\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Not yet\",\"Talk to farmer\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Not yet",
+                                        "text": "\"Not yet\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Talk to farmer",
+                                        "text": "\"Talk to farmer\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "else:",
+                        "name": "else",
+                        "text": "(else:)",
+                        "tokens": [
+                            {
+                                "text": "else:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\n\t[[Mission Completed]]\n",
+                        "text": "[\n\t[[Mission Completed]]\n]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "\t",
+                                "type": "text"
+                            },
+                            {
+                                "innerText": "link-goto:\"Mission Completed\",\"Mission Completed\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Mission Completed\",\"Mission Completed\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Mission Completed",
+                                        "text": "\"Mission Completed\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "Mission Completed",
+                                        "text": "\"Mission Completed\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            }
+                        ],
+                        "type": "hook"
+                    }
+                ]
+            },
+            {
+                "Name": "Mission Completed",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Thank you! You are the best, here take some gold!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $Score to $Score-400",
+                        "name": "set",
+                        "text": "(set: $Score to $Score-400)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": "-",
+                                "type": "subtraction"
+                            },
+                            {
+                                "text": "400",
+                                "type": "number",
+                                "value": 400
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Details",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Which details whould you like to know?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"When did he came?\",\"Time Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"When did he came?\",\"Time Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "When did he came?",
+                                "text": "\"When did he came?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Time Details",
+                                "text": "\"Time Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"What did he took?\",\"Gold Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"What did he took?\",\"Gold Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "What did he took?",
+                                "text": "\"What did he took?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Gold Details",
+                                "text": "\"Gold Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Which way he fled?\",\"Direction Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Which way he fled?\",\"Direction Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Which way he fled?",
+                                "text": "\"Which way he fled?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Direction Details",
+                                "text": "\"Direction Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"What he looked like?\",\"Look Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"What he looked like?\",\"Look Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "What he looked like?",
+                                "text": "\"What he looked like?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Look Details",
+                                "text": "\"Look Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Time Details",
+                "Pid": "9",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He arrived in the middle of the night around midnight.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me more details\",\"Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me more details\",\"Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me more details",
+                                "text": "\"Give me more details\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Details",
+                                "text": "\"Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok I will help you\",\"Help the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok I will help you\",\"Help the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok I will help you",
+                                "text": "\"Ok I will help you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Help the farmer",
+                                "text": "\"Help the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "He sounds dangerous, I can't help you ",
+                                "text": "\"He sounds dangerous, I can't help you \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leave the farmer",
+                                "text": "\"Leave the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Gold Details",
+                "Pid": "10",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He took all my money, 500 gold.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me more details\",\"Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me more details\",\"Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me more details",
+                                "text": "\"Give me more details\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Details",
+                                "text": "\"Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok I will help you\",\"Help the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok I will help you\",\"Help the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok I will help you",
+                                "text": "\"Ok I will help you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Help the farmer",
+                                "text": "\"Help the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "He sounds dangerous, I can't help you ",
+                                "text": "\"He sounds dangerous, I can't help you \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leave the farmer",
+                                "text": "\"Leave the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Direction Details",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He fled to the forest behind you.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me more details\",\"Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me more details\",\"Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me more details",
+                                "text": "\"Give me more details\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Details",
+                                "text": "\"Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok I will help you\",\"Help the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok I will help you\",\"Help the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok I will help you",
+                                "text": "\"Ok I will help you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Help the farmer",
+                                "text": "\"Help the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "He sounds dangerous, I can't help you ",
+                                "text": "\"He sounds dangerous, I can't help you \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leave the farmer",
+                                "text": "\"Leave the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Look Details",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He was wearing black clothes and a mask so I didn't see his face.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me more details\",\"Details\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me more details\",\"Details\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me more details",
+                                "text": "\"Give me more details\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Details",
+                                "text": "\"Details\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Ok I will help you\",\"Help the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Ok I will help you\",\"Help the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Ok I will help you",
+                                "text": "\"Ok I will help you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Help the farmer",
+                                "text": "\"Help the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"He sounds dangerous, I can't help you \",\"Leave the farmer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "He sounds dangerous, I can't help you ",
+                                "text": "\"He sounds dangerous, I can't help you \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Leave the farmer",
+                                "text": "\"Leave the farmer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Talk to Robber",
+                "Pid": "13",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Can I help you?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Have you seen a suspicious person around?\",\"Lie\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Have you seen a suspicious person around?\",\"Lie\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Have you seen a suspicious person around?",
+                                "text": "\"Have you seen a suspicious person around?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Lie",
+                                "text": "\"Lie\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"You look like a robber\",\"Deny\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"You look like a robber\",\"Deny\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "You look like a robber",
+                                "text": "\"You look like a robber\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Deny",
+                                "text": "\"Deny\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Lie",
+                "Pid": "14",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Yes, I saw someone suspicious a few hours ago.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"You look suspicious\",\"Deny\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"You look suspicious\",\"Deny\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "You look suspicious",
+                                "text": "\"You look suspicious\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Deny",
+                                "text": "\"Deny\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Deny",
+                "Pid": "15",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "It's not me, I'm an innocent and kind person.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"where were you last night?\",\"Robber Location\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"where were you last night?\",\"Robber Location\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "where were you last night?",
+                                "text": "\"where were you last night?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Robber Location",
+                                "text": "\"Robber Location\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Why are you dressed like that?\",\"Robber Clothes\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Why are you dressed like that?\",\"Robber Clothes\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Why are you dressed like that?",
+                                "text": "\"Why are you dressed like that?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Robber Clothes",
+                                "text": "\"Robber Clothes\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"You are the robber!!!\",\"Find Robber\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"You are the robber!!!\",\"Find Robber\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "You are the robber!!!",
+                                "text": "\"You are the robber!!!\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Find Robber",
+                                "text": "\"Find Robber\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Robber Location",
+                "Pid": "16",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "In my house",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Are you sure?\",\"Deny\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Are you sure?\",\"Deny\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Are you sure?",
+                                "text": "\"Are you sure?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Deny",
+                                "text": "\"Deny\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Robber Clothes",
+                "Pid": "17",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "This is my style.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Are you sure?\",\"Deny\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Are you sure?\",\"Deny\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Are you sure?",
+                                "text": "\"Are you sure?\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Deny",
+                                "text": "\"Deny\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Find Robber",
+                "Pid": "18",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Okay, you're right. I'm the robber.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"I'm going to kill you\",\"Kill\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"I'm going to kill you\",\"Kill\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "I'm going to kill you",
+                                "text": "\"I'm going to kill you\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Kill",
+                                "text": "\"Kill\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Give me all the stolen money\",\"Sorry\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Give me all the stolen money\",\"Sorry\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Give me all the stolen money",
+                                "text": "\"Give me all the stolen money\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Sorry",
+                                "text": "\"Sorry\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Kill",
+                "Pid": "19",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "No...!!!!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $KillRobber to true",
+                        "name": "set",
+                        "text": "(set: $KillRobber to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "KillRobber",
+                                "text": "$KillRobber",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $playersMissionIsComplete to true",
+                        "name": "set",
+                        "text": "(set: $playersMissionIsComplete to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "playersMissionIsComplete",
+                                "text": "$playersMissionIsComplete",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $Score to $Score+500",
+                        "name": "set",
+                        "text": "(set: $Score to $Score+500)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": "+",
+                                "type": "addition"
+                            },
+                            {
+                                "text": "500",
+                                "type": "number",
+                                "value": 500
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Sorry",
+                "Pid": "20",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Here...take back the money I'm sorry, please don't kill me!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $playersMissionIsComplete to true",
+                        "name": "set",
+                        "text": "(set: $playersMissionIsComplete to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "playersMissionIsComplete",
+                                "text": "$playersMissionIsComplete",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $Score to $Score+500",
+                        "name": "set",
+                        "text": "(set: $Score to $Score+500)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "Score",
+                                "text": "$Score",
+                                "type": "variable"
+                            },
+                            {
+                                "text": "+",
+                                "type": "addition"
+                            },
+                            {
+                                "text": "500",
+                                "type": "number",
+                                "value": 500
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}

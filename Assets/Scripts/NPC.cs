@@ -1,6 +1,4 @@
 ﻿using Cradle;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class NPC : MonoBehaviour
@@ -11,7 +9,7 @@ public class NPC : MonoBehaviour
     private string currentPassage;
     [SerializeField]
     private Story story;
-    bool active = false;
+    private bool active = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +29,7 @@ public class NPC : MonoBehaviour
     {
         story.GoTo(currentPassage);
     }
-    public void Active()
+    public void Activate()
     {
         active = true;
     }
